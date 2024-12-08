@@ -12,3 +12,6 @@ map[キーの型]値の型
 
 ### 1.2. map[string]interface{}
 配列内の各要素は、再びキーが文字列で、値が任意の型（interface{}）となるマップ
+
+### 1.3. map[string]string
+キーが文字列で、値も文字列となるマップ

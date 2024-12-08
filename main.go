@@ -13,7 +13,7 @@ func main() {
 		log.Fatal(err)
 	}
 
-	var result map[string][]map[string]interface{}
+	var result map[string][]map[string]string
 	json.Unmarshal(bytes, &result)
 	for key, list := range result {
 		for _, item := range list {
